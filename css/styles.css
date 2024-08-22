@@ -1,0 +1,288 @@
+@import "reset.css";
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+[class$="btn"] {
+    width: 140px;
+    height: 50px;
+
+    align-items: center;
+    text-align: center;
+    background: #D97652;
+    border-radius: 40px;
+    border: none;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+/* header */
+header {
+    position: absolute;
+    width: 1920px;
+    height: 900px;
+
+    background: url(../images/img_cat_png.png);
+    background-repeat: no-repeat;
+    background-size: 415px 766px;
+    background-position: 1185px 136px;
+    background-color: #F2E9D8;
+}
+
+header>h1 {
+    position: absolute;
+    width: 750px;
+    height: 120px;
+    left: 320px;
+    top: 304px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+header>p {
+    position: absolute;
+    width: 450px;
+    height: 86px;
+    left: 320px;
+    top: 464px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header>button {
+    position: absolute;
+    top: 590px;
+    left: 320px;
+}
+
+
+/* nav */
+header>nav {
+    position: fixed;
+    width: 1920px;
+    height: 100px;
+    z-index: 1;
+    background-color: #F2E9D8;
+}
+
+nav>button {
+    position: absolute;
+    left: 1460px;
+    top: 26px;
+}
+
+.header-logo-fin {
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    left: 320px;
+    top: 31px;
+}
+
+.top-nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+    position: absolute;
+    width: 205px;
+    height: 20px;
+    left: 1206px;
+    top: 41px;
+}
+
+/* main */
+main {
+    position: absolute;
+    height: 3180px;
+    width: 1920px;
+    top: 900px;
+}
+
+
+/* section1 */
+.section1-cat1 {
+    position: absolute;
+    width: 660px;
+    height: 390px;
+    left: 320px;
+    top: 80px;
+
+    background: url(../images/img_4.png);
+    filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.25));
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+
+.section1-text1 {
+    position: absolute;
+    width: 510px;
+    height: 135px;
+    left: 1090px;
+    top: 172px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+.section1-text2 {
+    position: absolute;
+    width: 510px;
+    height: 40px;
+    left: 1090px;
+    top: 337px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+/* section2 */
+.section2>h1 {
+    position: absolute;
+    width: 950px;
+    height: 60px;
+    left: 523px;
+    top: 590px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #D97652;
+}
+
+.section2-text1 {
+    position: absolute;
+    width: 750px;
+    height: 42px;
+    left: 605px;
+    top: 690px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.section2-text1>span {
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color: #D97652;
+}
+
+.cat-gallery1 {
+    position: absolute;
+    width: 1280px;
+    height: 378px;
+    left: 320px;
+    top: 820px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.cat-gallery2 {
+    position: absolute;
+    width: 1280px;
+    height: 378px;
+    left: 320px;
+    top: 1270px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.show-more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+
+    position: absolute;
+    width: 330px;
+    height: 108px;
+    left: 820px;
+    top: 1748px;
+}
+
+.continue {
+    width: 305px;
+    height: 30px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+/* footer */
+footer {
+    position: absolute;
+    width: 1920px;
+    height: 160px;
+    top: 4080px;
+}
+
+.footer-logo-fin {
+    position: absolute;
+    width: 226px;
+    height: 70px;
+    top: 45px;
+    left: 320px;
+}
+
+.footer-nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+
+    position: absolute;
+    width: 228px;
+    height: 42px;
+    left: 1372px;
+    top: 58px;
+}
