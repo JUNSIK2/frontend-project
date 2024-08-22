@@ -25,54 +25,6 @@
 
 /* header */
 header {
-    position: absolute;
-    width: 1920px;
-    height: 900px;
-
-    background: url(../images/img_cat_png.png);
-    background-repeat: no-repeat;
-    background-size: 415px 766px;
-    background-position: 1185px 136px;
-    background-color: #F2E9D8;
-}
-
-header>h1 {
-    position: absolute;
-    width: 750px;
-    height: 120px;
-    left: 320px;
-    top: 304px;
-
-    font-family: 'Pretendard';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 60px;
-}
-
-header>p {
-    position: absolute;
-    width: 450px;
-    height: 86px;
-    left: 320px;
-    top: 464px;
-
-    font-family: 'Pretendard';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-header>button {
-    position: absolute;
-    top: 590px;
-    left: 320px;
-}
-
-
-/* nav */
-header>nav {
     position: fixed;
     width: 1920px;
     height: 100px;
@@ -80,7 +32,7 @@ header>nav {
     background-color: #F2E9D8;
 }
 
-nav>button {
+header button {
     position: absolute;
     left: 1460px;
     top: 26px;
@@ -108,12 +60,67 @@ nav>button {
     top: 41px;
 }
 
+
+.section {
+    position: absolute;
+    width: 1920px;
+    height: 900px;
+
+    background: url(../images/img_cat_png.png);
+    background-repeat: no-repeat;
+    background-size: 415px 766px;
+    background-position: 1185px 136px;
+    background-color: #F2E9D8;
+}
+
+.section>h1 {
+    position: absolute;
+    width: 750px;
+    height: 120px;
+    left: 320px;
+    top: 304px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.section>p {
+    position: absolute;
+    width: 450px;
+    height: 86px;
+    left: 320px;
+    top: 464px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.section>button {
+    position: absolute;
+    top: 590px;
+    left: 320px;
+}
+
+
+
+
 /* main */
 main {
     position: absolute;
     height: 3180px;
     width: 1920px;
     top: 900px;
+
+    background: url(../images/bottom_cat.png);
+    background-repeat: no-repeat;
+    background-size: 1920px 340px;
+    background-position-y: 2840px;
 }
 
 
@@ -252,8 +259,159 @@ main {
     line-height: 30px;
 }
 
+.section2>hr {
+    position: absolute;
+    width: 1280px;
+    height: 1px;
+    left: 320px;
+    top: 1936px;
+    background-color: #C4C4C4;
+    border: none;
+}
+
+/* section3 */
+.section3>h1 {
+    /* Where you’ll be */
+
+    position: absolute;
+    width: auto;
+    height: 45px;
+    left: 320px;
+    top: 2005px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+
+}
+
+.section3>p {
+    position: absolute;
+    width: auto;
+    height: 20px;
+    left: 320px;
+    top: 2070px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #606367;
+
+}
+
+.section3>img {
+    position: absolute;
+    width: 1280px;
+    height: 520px;
+    top: 2138px;
+    left: 320px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.subscribe-box {
+    position: absolute;
+    width: 1280px;
+    height: 200px;
+    top: 2739px;
+    left: 320px;
+
+    background: #263140;
+    border-radius: 30px;
+}
+
+.subscribe-box h2 {
+    /* Subscribe to our Blog post */
+
+    position: absolute;
+    width: auto;
+    height: 45px;
+    left: 58px;
+    top: 51px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    /* or 129% */
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.subscribe-box p {
+    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text */
+
+    position: absolute;
+    width: 471px;
+    height: 36px;
+    left: 58px;
+    top: 114px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    display: flex;
+    align-items: center;
+
+    color: #F2E9D8;
+}
+
+.subscribe-form {
+    position: absolute;
+    width: 530px;
+    height: 60px;
+    left: 692px;
+    top: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    background: #FFFFFF;
+    border-radius: 60px;
+}
+
+.subscribe-form label {
+    position: absolute;
+    left: 28px;
+}
+
+#email {
+    position: absolute;
+    width: 310px;
+    height: 90%;
+    left: 60px;
 
 
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    display: flex;
+    align-items: center;
+    border: none;
+
+    color: #767676;
+}
+
+.subscribe_btn {
+    position: absolute;
+    left: 380px;
+}
 
 
 
