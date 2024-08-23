@@ -73,7 +73,7 @@ header button {
     background-color: #F2E9D8;
 }
 
-.section>h1 {
+.section>h2 {
     position: absolute;
     width: 750px;
     height: 120px;
@@ -168,7 +168,7 @@ main {
 
 
 /* section2 */
-.section2>h1 {
+.section2>h2 {
     position: absolute;
     width: 950px;
     height: 60px;
@@ -270,7 +270,7 @@ main {
 }
 
 /* section3 */
-.section3>h1 {
+.section3>h2 {
     /* Where you’ll be */
 
     position: absolute;
@@ -327,9 +327,7 @@ main {
     border-radius: 30px;
 }
 
-.subscribe-box h2 {
-    /* Subscribe to our Blog post */
-
+.subscribe-box h3 {
     position: absolute;
     width: auto;
     height: 45px;
@@ -349,8 +347,6 @@ main {
 }
 
 .subscribe-box p {
-    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text */
-
     position: absolute;
     width: 471px;
     height: 36px;
@@ -413,6 +409,66 @@ main {
     left: 380px;
 }
 
+/* modal */
+.subscribe_modal {
+    width: 600px;
+    height: 400px;
+    top: 210px;
+    border-radius: 30px;
+    position: fixed;
+    border: none;
+    background-color: #F2E9D8;
+    background-image: url("../images/model_background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+
+}
+
+.model_cat {
+    position: absolute;
+    top: 60px;
+    left: 260px;
+}
+
+.subscribe_modal h2 {
+    position: absolute;
+    width: 212px;
+    height: 46px;
+    top: 196px;
+    left: 205px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #D97652;
+}
+
+.subscribe_modal p {
+    position: absolute;
+    width: auto;
+    height: 18px;
+    top: 254px;
+    left: 135px;
+
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.subscribe_modal button {
+    position: absolute;
+    width: 183px;
+    height: 50px;
+    top: 310px;
+    left: 225px;
+}
 
 
 
@@ -443,4 +499,22 @@ footer {
     height: 42px;
     left: 1372px;
     top: 58px;
+}
+
+.top-scroll-button {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 24px;
+    bottom: 170px;
+    border: none;
+    border-radius: 50%;
+    z-index: 5;
+    background-image: url('../images/scroll-top-btn\ \(2\).png');
+    background-repeat: no-repeat;
+}
+
+.top-scroll-button:hover {
+    background-image: url('../images/scroll-top-btn\ \(1\).png');
+    background-repeat: no-repeat;
 }
