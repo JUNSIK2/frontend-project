@@ -69,7 +69,23 @@ header .side-button {
 }
 
 
-.section {
+
+
+/* main */
+main {
+    position: absolute;
+    height: 4085px;
+    width: 1920px;
+
+    background: url(../images/bottom_cat.png);
+    background-repeat: no-repeat;
+    background-size: 1920px 340px;
+    background-position-y: 3739px;
+}
+
+
+/* section1 */
+.section1 {
     position: absolute;
     width: 1920px;
     height: 900px;
@@ -81,7 +97,7 @@ header .side-button {
     background-color: #F2E9D8;
 }
 
-.section>h2 {
+.section1>h2 {
     position: absolute;
     width: 750px;
     height: 120px;
@@ -95,7 +111,7 @@ header .side-button {
     line-height: 60px;
 }
 
-.section>p {
+.section1>p {
     position: absolute;
     width: 450px;
     height: 86px;
@@ -109,7 +125,7 @@ header .side-button {
     line-height: 20px;
 }
 
-.section>button {
+.section1>button {
     position: absolute;
     top: 590px;
     left: 320px;
@@ -117,26 +133,13 @@ header .side-button {
 
 
 
-
-
-/* main */
-main {
+/* section2 */
+.section2{
     position: absolute;
-    height: 3180px;
-    width: 1920px;
     top: 900px;
-
-    background: url(../images/bottom_cat.png);
-    background-repeat: no-repeat;
-    background-size: 1920px 340px;
-    background-position-y: 2840px;
 }
 
-
-/* section1 */
-
-
-.section1-cat1 {
+.section2-cat1 {
     position: absolute;
     width: 660px;
     height: 390px;
@@ -147,7 +150,7 @@ main {
     border-radius: 30px;
 }
 
-.section1-text1 {
+.section2 h2 {
     position: absolute;
     width: 510px;
     height: 135px;
@@ -161,7 +164,7 @@ main {
     line-height: 45px;
 }
 
-.section1-text2 {
+.section2-text1 {
     position: absolute;
     width: 510px;
     height: 40px;
@@ -176,8 +179,7 @@ main {
 }
 
 
-/* section2 */
-.section2>h2 {
+.section2-text2 {
     position: absolute;
     width: 950px;
     height: 60px;
@@ -194,7 +196,7 @@ main {
     color: #D97652;
 }
 
-.section2-text1 {
+.section2-text3 {
     position: absolute;
     width: 750px;
     height: 42px;
@@ -209,7 +211,7 @@ main {
     text-align: center;
 }
 
-.section2-text1>span {
+.section2-text3>span {
     font-family: Pretendard;
     font-size: 16px;
     font-weight: 700;
@@ -218,12 +220,13 @@ main {
     color: #D97652;
 }
 
-.section2 img {
+
+.section2 div img {
     filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
     border-radius: 18px;
 }
 
-.cat-gallery1 {
+.cat-gallery-1 {
     position: absolute;
     width: 1280px;
     height: 378px;
@@ -236,7 +239,7 @@ main {
     gap: 5px;
 }
 
-.cat-gallery2 {
+.cat-gallery-2 {
     position: absolute;
     width: 1280px;
     height: 378px;
@@ -283,15 +286,19 @@ main {
     border: none;
 }
 
-/* section3 */
-.section3>h2 {
-    /* Where you’ll be */
 
+/* section3 */
+.section3 {
     position: absolute;
-    width: auto;
+    top: 2836px;
+}
+
+.section3>h2 {
+    position: absolute;
+    width: 275px;
     height: 45px;
     left: 320px;
-    top: 2005px;
+    top: 68px;
 
     font-family: 'Pretendard';
     font-style: normal;
@@ -303,10 +310,10 @@ main {
 
 .section3>p {
     position: absolute;
-    width: auto;
+    width: 400px;
     height: 20px;
     left: 320px;
-    top: 2070px;
+    top: 133px;
 
     font-family: 'Pretendard';
     font-style: normal;
@@ -322,7 +329,7 @@ main {
     position: absolute;
     width: 1280px;
     height: 520px;
-    top: 2138px;
+    top: 201px;
     left: 320px;
     gap: 0px;
     border-radius: 12px 0px 0px 0px;
@@ -334,7 +341,7 @@ main {
     position: absolute;
     width: 1280px;
     height: 200px;
-    top: 2739px;
+    top: 801px;
     left: 320px;
 
     background: #263140;
@@ -423,7 +430,9 @@ main {
     left: 380px;
 }
 
-/* modal */
+
+
+/* 모달창 */
 .subscribe_modal {
     width: 600px;
     height: 400px;
@@ -515,6 +524,7 @@ footer {
     top: 58px;
 }
 
+/* 탑 스크롤 버튼 */
 .top-scroll-button {
     position: fixed;
     width: 50px;

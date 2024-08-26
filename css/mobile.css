@@ -40,7 +40,7 @@
 
 
 
-    /* 사이드바 */
+    /* side bar */
     .side-bar {
         display: none;
         position: fixed;
@@ -90,7 +90,24 @@
     }
 
 
-    .section {
+    
+
+    /* main */
+    main {
+        position: absolute;
+        height: 4647px;
+        width: 390px;
+
+        background: url(../images/bottom_cat_2.png);
+        background-repeat: no-repeat;
+        background-size: 390px 240px;
+        background-position-y: 4430px;
+    }
+
+
+    /* section1 */
+
+    .section1 {
         position: absolute;
         width: 390px;
         height: 794px;
@@ -102,7 +119,7 @@
         background-color: #F2E9D8;
     }
 
-    .section>h2 {
+    .section1>h2 {
         position: absolute;
         width: 280px;
         height: 90px;
@@ -117,7 +134,7 @@
         text-align: center;
     }
 
-    .section>p {
+    .section1>p {
         position: absolute;
         width: 270px;
         height: 98px;
@@ -132,33 +149,19 @@
         text-align: center;
     }
 
-    .section>button {
+    .section1>button {
         position: absolute;
         top: 364px;
         left: 135px;
     }
 
-
-
-
-    /* main */
-    main {
+    /* section2 */
+    .section2{
         position: absolute;
-        height: 3893px;
-        width: 390px;
         top: 794px;
-
-        background: url(../images/bottom_cat_2.png);
-        background-repeat: no-repeat;
-        background-size: 390px 240px;
-        background-position-y: 3653px;
     }
 
-
-    /* section1 */
-
-
-    .section1-cat1 {
+    .section2-cat1 {
         position: absolute;
         width: 326px;
         height: 190px;
@@ -169,7 +172,7 @@
         border-radius: 18px;
     }
 
-    .section1-text1 {
+    .section2 h2 {
         position: absolute;
         width: 326px;
         height: 90px;
@@ -183,7 +186,7 @@
         line-height: 30px;
     }
 
-    .section1-text2 {
+    .section2-text1 {
         position: absolute;
         width: 326px;
         height: 36px;
@@ -197,9 +200,7 @@
         line-height: 18px;
     }
 
-
-    /* section2 */
-    .section2>h2 {
+    .section2-text2 {
         position: absolute;
         width: 326px;
         height: 60px;
@@ -216,7 +217,7 @@
         color: #D97652;
     }
 
-    .section2-text1 {
+    .section2-text3 {
         position: absolute;
         width: 326px;
         height: 102px;
@@ -231,7 +232,7 @@
         text-align: center;
     }
 
-    .section2-text1>span {
+    .section2-text3>span {
         font-family: Pretendard;
         font-size: 16px;
         font-weight: 700;
@@ -240,14 +241,14 @@
         color: #D97652;
     }
 
-    .section2 img {
-        width: 326px;
+    .section2 div img {
         height: 326px;
+        width: 326px;
         filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
         border-radius: 18px;
     }
 
-    .cat-gallery1 {
+    .cat-gallery-1 {
         position: absolute;
         width: 326px;
         height: 1042px;
@@ -261,7 +262,7 @@
         gap: 32px;
     }
 
-    .cat-gallery2 {
+    .cat-gallery-2 {
         position: absolute;
         width: 326px;
         height: 1042px;
@@ -309,15 +310,19 @@
         border: none;
     }
 
-    /* section3 */
-    .section3>h2 {
-        /* Where you’ll be */
 
+    /* section3 */
+    .section3 {
+        position: absolute;
+        top: 3840px;
+    }
+
+    .section3>h2 {
         position: absolute;
         width: 326px;
         height: 30px;
         left: 32px;
-        top: 3087px;
+        top: 40px;
 
         font-family: 'Pretendard';
         font-style: normal;
@@ -332,7 +337,7 @@
         width: 326px;
         height: 40px;
         left: 32px;
-        top: 3133px;
+        top: 86px;
 
         font-family: 'Pretendard';
         font-style: normal;
@@ -347,7 +352,7 @@
         position: absolute;
         width: 326px;
         height: 132px;
-        top: 3201px;
+        top: 154px;
         left: 32px;
         gap: 0px;
         border-radius: 12px 0px 0px 0px;
@@ -359,7 +364,7 @@
         position: absolute;
         width: 326px;
         height: 348px;
-        top: 3373px;
+        top: 326px;
         left: 32px;
 
         background: #263140;
@@ -506,13 +511,12 @@
     }
 
 
-
     /* footer */
     footer {
         position: absolute;
         width: 390px;
         height: 178px;
-        top: 4711px;
+        top: 4647px;
     }
 
     .footer-logo-fin {
