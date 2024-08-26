@@ -1,0 +1,563 @@
+@media (max-width: 768px) {
+
+    /* header */
+    header {
+        position: fixed;
+        width: 390px;
+        height: 76px;
+        z-index: 1;
+        background-color: #F2E9D8;
+    }
+
+    header .download-btn {
+        position: absolute;
+        left: 1460px;
+        top: 26px;
+    }
+
+    header .side-button {
+        position: absolute;
+        display: block;
+        height: 32px;
+        width: 32px;
+        left: 338px;
+        top: 22px;
+        background-color: #F2E9D8;
+        border: none;
+    }
+
+    .header-logo-fin {
+        position: absolute;
+        width: 92px;
+        height: 28px;
+        left: 20px;
+        top: 24px;
+    }
+
+    .top-nav-list {
+        display: none;
+    }
+
+
+
+    /* 사이드바 */
+    .side-bar {
+        display: none;
+        position: fixed;
+        width: 289px;
+        height: 820px;
+        top: 0px;
+        right: 0px;
+        z-index: 2;
+        background-color: #263140;
+    }
+
+    .side-nav-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 30px;
+
+        position: absolute;
+
+        left: 50px;
+        top: 120px;
+        color: #FFFFFF;
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .side-bar .download-btn {
+        position: absolute;
+        width: 114px;
+        height: 40px;
+        left: 40px;
+        top: 290px;
+    }
+
+    .close-side-bar {
+        position: absolute;
+        background-color: #263140;
+        border: none;
+        width: 32px;
+        height: 32px;
+        left: 20px;
+        top: 22px;
+    }
+
+
+    .section {
+        position: absolute;
+        width: 390px;
+        height: 794px;
+
+        background: url(../images/img_cat_png.png);
+        background-repeat: no-repeat;
+        background-size: 197px 422px;
+        background-position: 98px 434px;
+        background-color: #F2E9D8;
+    }
+
+    .section>h2 {
+        position: absolute;
+        width: 280px;
+        height: 90px;
+        left: 67px;
+        top: 116px;
+
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .section>p {
+        position: absolute;
+        width: 270px;
+        height: 98px;
+        left: 57px;
+        top: 236px;
+
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    .section>button {
+        position: absolute;
+        top: 364px;
+        left: 135px;
+    }
+
+
+
+
+    /* main */
+    main {
+        position: absolute;
+        height: 3893px;
+        width: 390px;
+        top: 794px;
+
+        background: url(../images/bottom_cat_2.png);
+        background-repeat: no-repeat;
+        background-size: 390px 240px;
+        background-position-y: 3653px;
+    }
+
+
+    /* section1 */
+
+
+    .section1-cat1 {
+        position: absolute;
+        width: 326px;
+        height: 190px;
+        left: 32px;
+        top: 40px;
+
+        filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
+        border-radius: 18px;
+    }
+
+    .section1-text1 {
+        position: absolute;
+        width: 326px;
+        height: 90px;
+        left: 24px;
+        top: 270px;
+
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .section1-text2 {
+        position: absolute;
+        width: 326px;
+        height: 36px;
+        left: 32px;
+        top: 380px;
+
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    /* section2 */
+    .section2>h2 {
+        position: absolute;
+        width: 326px;
+        height: 60px;
+        left: 32px;
+        top: 476px;
+
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+
+        color: #D97652;
+    }
+
+    .section2-text1 {
+        position: absolute;
+        width: 326px;
+        height: 102px;
+        left: 21px;
+        top: 566px;
+
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .section2-text1>span {
+        font-family: Pretendard;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: center;
+        color: #D97652;
+    }
+
+    .section2 img {
+        width: 326px;
+        height: 326px;
+        filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
+        border-radius: 18px;
+    }
+
+    .cat-gallery1 {
+        position: absolute;
+        width: 326px;
+        height: 1042px;
+        left: 32px;
+        top: 708px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .cat-gallery2 {
+        position: absolute;
+        width: 326px;
+        height: 1042px;
+        left: 32px;
+        top: 1782px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .show-more {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 28px;
+
+        position: absolute;
+        width: 218px;
+        height: 102px;
+        left: 86px;
+        top: 2884px;
+    }
+
+    .continue {
+        width: 230px;
+        height: 24px;
+
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .section2>hr {
+        position: absolute;
+        width: 326px;
+        height: 1px;
+        left: 32px;
+        top: 3046px;
+        background-color: #C4C4C4;
+        border: none;
+    }
+
+    /* section3 */
+    .section3>h2 {
+        /* Where you’ll be */
+
+        position: absolute;
+        width: 326px;
+        height: 30px;
+        left: 32px;
+        top: 3087px;
+
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+
+    }
+
+    .section3>p {
+        position: absolute;
+        width: 326px;
+        height: 40px;
+        left: 32px;
+        top: 3133px;
+
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+
+        color: #606367;
+    }
+
+    .section3>img {
+        position: absolute;
+        width: 326px;
+        height: 132px;
+        top: 3201px;
+        left: 32px;
+        gap: 0px;
+        border-radius: 12px 0px 0px 0px;
+        opacity: 0px;
+
+    }
+
+    .subscribe-box {
+        position: absolute;
+        width: 326px;
+        height: 348px;
+        top: 3373px;
+        left: 32px;
+
+        background: #263140;
+        border-radius: 30px;
+    }
+
+    .subscribe-box h3 {
+        position: absolute;
+        width: 195px;
+        height: 60px;
+        left: 32px;
+        top: 36px;
+
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+
+        color: #FFFFFF;
+    }
+
+    .subscribe-box p {
+        position: absolute;
+        width: 262px;
+        height: 72px;
+        left: 32px;
+        top: 116px;
+
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+
+        color: #F2E9D8;
+    }
+
+    .subscribe-form {
+        position: absolute;
+        width: 262px;
+        height: 40px;
+        left: 32px;
+        top: 218px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        background: #FFFFFF;
+        border-radius: 60px;
+    }
+
+    .subscribe-form label {
+        position: absolute;
+        left: 28px;
+    }
+
+    #email {
+        position: absolute;
+        width: 160px;
+        height: 90%;
+        left: 53px;
+
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 125% */
+        display: flex;
+        align-items: center;
+        border: none;
+
+        color: #767676;
+    }
+
+    .subscribe_btn {
+        position: absolute;
+        top: 55px;
+        left: 120px;
+    }
+
+    /* modal */
+    .subscribe_modal {
+        width: 300px;
+        height: 300px;
+        top: 5px;
+        border-radius: 30px;
+        position: fixed;
+        border: none;
+        background-color: #F2E9D8;
+        background-image: url("../images/model_background.png");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+        text-align: center;
+
+    }
+
+    .model_cat {
+        width: 60px;
+        height: 62px;
+        position: absolute;
+        top: 40px;
+        left: 130px;
+    }
+
+    .subscribe_modal h2 {
+        position: absolute;
+        width: auto;
+        height: 30px;
+        top: 126px;
+        left: 100px;
+
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+
+        color: #D97652;
+    }
+
+    .subscribe_modal p {
+        position: absolute;
+        width: 200px;
+        height: 36px;
+        top: 166px;
+        left: 65px;
+
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .subscribe_modal button {
+        position: absolute;
+        width: 158px;
+        height: 40px;
+        top: 230px;
+        left: 90px;
+    }
+
+
+
+    /* footer */
+    footer {
+        position: absolute;
+        width: 390px;
+        height: 178px;
+        top: 4711px;
+    }
+
+    .footer-logo-fin {
+        position: absolute;
+        width: 112px;
+        height: 34px;
+        top: 30px;
+        left: 20px;
+    }
+
+    .footer-nav-list {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 20px;
+
+        position: absolute;
+        width: 176px;
+        height: 32px;
+        left: 20px;
+        top: 122px;
+    }
+
+    .footer-nav-list img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .top-scroll-button {
+        position: fixed;
+        width: 30px;
+        height: 30px;
+        right: 12px;
+        bottom: 30px;
+        border: none;
+        border-radius: 50%;
+        z-index: 5;
+        background-image: url('../images/scroll-top-btn\ \(2\).png');
+        background-repeat: no-repeat;
+        background-size: 30px 30px;
+        display: none;
+    }
+
+    .top-scroll-button:hover {
+        background-image: url('../images/scroll-top-btn\ \(1\).png');
+        background-repeat: no-repeat;
+    }
+}

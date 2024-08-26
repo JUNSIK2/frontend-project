@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HODU</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/mobile.css">
     <script defer src="./js/script.js"></script>
 </head>
 
@@ -14,21 +15,34 @@
 
         <header>
             <nav>
-                <img class="header-logo-fin" src="./images/Logo-fin.png" alt="header-logo-fin">
+                <img class="header-logo-fin" src="./images/Logo-fin.png" alt="HODU">
                 <ul class="top-nav-list">
                     <li><a href="index.html">Home</a></li>
                     <li><a>About</a></li>
                     <li><a>Support</a></li>
                 </ul>
                 <button type="button" class="download-btn">Download</button>
+                <button type="button" class="side-button"><img src="./images/menu.png" alt="side-button"></button>
             </nav>
+            <div class="side-bar">
+                <button type="button" class="close-side-bar"><img src="./images/arrow-right.png" alt="close-side-bar"></button>
+                <nav>
+                    <ul class="side-nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Support</a></li>
+                    </ul>
+                    <button type="button" class="download-btn">Download</button>
+                </nav>
+            </div>
         </header>
 
+
         <section class="section">
-            <h2>Lorem Ipsum is simply<br/>
+            <h2>Lorem Ipsum is simply<br />
                 dummy text of the printing and</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry.<br/>
+                typesetting industry.<br />
                 Lorem Ipsum has been the industry's standard dummy text
                 ever since the 1500s, when an unknown
             </p>
@@ -36,17 +50,18 @@
         </section>
 
         <main>
+            <!-- section1 -->
             <section class="section1">
-                <p class="section1-cat1"></p>
-                <p class="section1-text1">Lorem Ipsum is simply<br/>
-                    dummy text of the printing and dummy text</p>
+                <img class="section1-cat1" src="./images/img_4.png" alt="HODU">
+                <h2 class="section1-text1">Lorem Ipsum is simply<br />
+                    dummy text of the printing and dummy text</h2>
                 <p class="section1-text2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </section>
-
+            <!-- section2 -->
             <section class="section2">
                 <h2>dummy text of the printing and dummy</h2>
                 <p class="section2-text1">Lorem Ipsum is <span> dummy text </span> of the printing and typesetting
-                    industry.<br/>
+                    industry.<br />
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
                 <div class="cat-gallery1">
                     <img src="./images/img_1.png" alt="section2-cat1">
@@ -64,11 +79,11 @@
                 </div>
                 <hr />
             </section>
-
+            <!-- section3 -->
             <section class="section3">
                 <h2>Where you’ll be</h2>
                 <p>330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>
-                <img src="./images/Frame 6.png" alt="map">
+                <img src="./images/Frame-6.png" alt="map">
                 <div class="subscribe-box">
                     <h3>Subscribe to our Blog post</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -87,8 +102,8 @@
                     <p>Lorem Ipsum is simply dummy text of the printing industry.</p>
                     <button type="button" class="ok_btn">OK! I Love HODU</button>
                 </dialog>
+
             </section>
-            
         </main>
 
         <footer>
@@ -102,7 +117,9 @@
                 </ul>
             </nav>
         </footer>
+
         <button class="top-scroll-button"></button>
+
     </div>
 </body>
 
