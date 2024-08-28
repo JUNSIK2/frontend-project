@@ -7,6 +7,7 @@
     <title>HODU</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/mobile.css">
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a6144c52c4d6ecd18cc5d662ef958c4e"></script>
     <script defer src="./js/script.js"></script>
 </head>
 
@@ -24,6 +25,7 @@
                 <button type="button" class="download-btn">Download</button>
                 <button type="button" class="side-button"><img src="./images/menu.png" alt="side-button"></button>
             </nav>
+            <!-- 사이드바 -->
             <div class="side-bar">
                 <button type="button" class="close-side-bar"><img src="./images/arrow-right.png" alt="close-side-bar"></button>
                 <nav>
@@ -62,6 +64,7 @@
                 <p class="section2-text3">Lorem Ipsum is <span> dummy text </span> of the printing and typesetting
                     industry.<br />
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
+                <!-- 호두 사진들 -->
                 <div class="cat-gallery-1">
                     <img src="./images/img_1.png" alt="section2-cat1">
                     <img src="./images/img_2.png" alt="section2-cat2">
@@ -83,7 +86,21 @@
             <section class="section3">
                 <h2>Where you’ll be</h2>
                 <p>330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>
-                <img src="./images/Frame-6.png" alt="map">
+                <!-- 카카오맵 -->
+                <div class="map_wrap">
+                    <div id="map"></div> 
+                    <!-- 지도타입 컨트롤 -->
+                    <div class="custom_typecontrol radius_border">
+                        <span id="btnRoadmap" class="selected_btn" onclick="setMapType('roadmap')">지도</span>
+                        <span id="btnSkyview" class="btn" onclick="setMapType('skyview')">스카이뷰</span>
+                    </div>
+                    <!-- 지도 확대, 축소 컨트롤 -->
+                    <div class="custom_zoomcontrol radius_border"> 
+                        <span onclick="zoomIn()"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_plus.png" alt="확대"></span>  
+                        <span onclick="zoomOut()"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_minus.png" alt="축소"></span>
+                    </div>
+                </div>
+                <!-- 구독 -->
                 <div class="subscribe-box">
                     <h3>Subscribe to our Blog post</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -93,9 +110,10 @@
                             <img src="./images/mail.png" alt="mail-icon">
                         </label>
                         <input type="text" name="email" id="email" placeholder="Enter your e-mail address">
-                        <button type="button" class="subscribe_btn">Subscribe</button>
+                        <button type="submit" class="subscribe_btn">Subscribe</button>
                     </form>
                 </div>
+                <!-- 모달 -->
                 <dialog class="subscribe_modal">
                     <img src="./images/model_cat.png" alt="model_cat" class="model_cat">
                     <h2>Thank you!</h2>
